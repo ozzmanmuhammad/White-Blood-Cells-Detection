@@ -31,6 +31,8 @@ The model is trained using the provided dataset and optimized using the Adam opt
 
 After training, the model is loaded, and the testing phase begins. Images are passed through the trained model to obtain predictions. The predicted bounding boxes, class labels, and confidence scores are obtained from the model's output. A threshold is applied to filter out low-confidence predictions. The final predictions are displayed along with the original images, showing the detected white blood cells and their corresponding class labels and confidence scores.
 
+![wbc](https://github.com/ozzmanmuhammad/White-Blood-Cells-Detection/assets/93766242/c0b44a07-0161-4f9f-8504-d0cdc5b3818f)
+
 ## Note
 
 - The code assumes that the dataset is stored in the specified directory structure, with images in the `images` folder and annotations in the `annotations` folder.
